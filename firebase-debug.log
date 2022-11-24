@@ -1,13 +1,13 @@
-[debug] [2022-11-24T15:22:39.940Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:22:39.943Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:22:39.944Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:22:39.945Z] Platform:      win32
-[debug] [2022-11-24T15:22:39.945Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:22:39.946Z] Time:          Thu Nov 24 2022 22:22:39 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:22:39.947Z] ----------------------------------------------------------------------
+[debug] [2022-11-24T16:35:02.951Z] ----------------------------------------------------------------------
+[debug] [2022-11-24T16:35:02.955Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-24T16:35:02.956Z] CLI Version:   11.16.1
+[debug] [2022-11-24T16:35:02.956Z] Platform:      win32
+[debug] [2022-11-24T16:35:02.957Z] Node Version:  v16.14.0
+[debug] [2022-11-24T16:35:02.965Z] Time:          Thu Nov 24 2022 23:35:02 GMT+0700 (Western Indonesia Time)
+[debug] [2022-11-24T16:35:02.965Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-11-24T15:22:39.961Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:22:39.962Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
+[debug] [2022-11-24T16:35:02.980Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-24T16:35:02.981Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -26,274 +26,14 @@ You're about to initialize a Firebase project in this directory:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:23:28.468Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:23:28.469Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tinder-clone","name":"tinder-clone"}
-[debug] [2022-11-24T15:23:30.173Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2022-11-24T15:23:30.173Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2022-11-24T15:23:30.476Z] FirebaseError: HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project because there is already a project with ID tinder-clone. Please try again with a unique project ID.
-[debug] [2022-11-24T15:23:46.269Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:23:46.273Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:23:46.274Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:23:46.274Z] Platform:      win32
-[debug] [2022-11-24T15:23:46.274Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:23:46.276Z] Time:          Thu Nov 24 2022 22:23:46 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:23:46.276Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:23:46.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:23:46.292Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:24:09.663Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:24:09.664Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tinder-clone","name":"tinderweb"}
-[debug] [2022-11-24T15:24:11.007Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2022-11-24T15:24:11.008Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2022-11-24T15:24:11.290Z] FirebaseError: HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project because there is already a project with ID tinder-clone. Please try again with a unique project ID.
-[debug] [2022-11-24T15:24:29.316Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:24:29.320Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:24:29.321Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:24:29.322Z] Platform:      win32
-[debug] [2022-11-24T15:24:29.322Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:24:29.323Z] Time:          Thu Nov 24 2022 22:24:29 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:24:29.324Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:24:29.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:24:29.339Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:24:42.997Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:24:42.997Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tinder-clone","name":"tinder-clone"}
-[debug] [2022-11-24T15:24:44.368Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2022-11-24T15:24:44.369Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2022-11-24T15:24:44.611Z] FirebaseError: HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project because there is already a project with ID tinder-clone. Please try again with a unique project ID.
-[debug] [2022-11-24T15:25:25.533Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:25:25.537Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:25:25.538Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:25:25.538Z] Platform:      win32
-[debug] [2022-11-24T15:25:25.538Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:25:25.540Z] Time:          Thu Nov 24 2022 22:25:25 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:25:25.540Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:25:25.556Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:25:25.557Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:26:25.327Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:26:25.328Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"tinder","name":"tinder-222411"}
-[debug] [2022-11-24T15:26:26.663Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2022-11-24T15:26:26.663Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2022-11-24T15:26:26.865Z] FirebaseError: HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project because there is already a project with ID tinder. Please try again with a unique project ID.
-[debug] [2022-11-24T15:28:26.698Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:28:26.702Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:28:26.703Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:28:26.704Z] Platform:      win32
-[debug] [2022-11-24T15:28:26.704Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:28:26.706Z] Time:          Thu Nov 24 2022 22:28:26 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:28:26.706Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:28:26.721Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:28:26.722Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:29:14.645Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:29:14.645Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"123","name":"tinder"}
-[debug] [2022-11-24T15:29:15.946Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
-[debug] [2022-11-24T15:29:15.946Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"},{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
-[debug] [2022-11-24T15:29:16.170Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project. See firebase-debug.log for more info.
-[debug] [2022-11-24T15:29:32.083Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:29:32.087Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:29:32.088Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:29:32.088Z] Platform:      win32
-[debug] [2022-11-24T15:29:32.089Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:29:32.090Z] Time:          Thu Nov 24 2022 22:29:32 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:29:32.091Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:29:32.105Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:29:32.106Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
-[debug] [2022-11-24T15:29:47.133Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
-[debug] [2022-11-24T15:29:47.133Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"qwerty123","name":"tinder"}
-[debug] [2022-11-24T15:29:48.463Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
-[debug] [2022-11-24T15:29:48.464Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
-[debug] [2022-11-24T15:29:48.656Z] FirebaseError: HTTP Error: 409, Requested entity already exists
-    at responseToError (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[error] 
-[error] Error: Failed to create project because there is already a project with ID qwerty123. Please try again with a unique project ID.
-[debug] [2022-11-24T15:30:19.827Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:30:19.831Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:30:19.832Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:30:19.832Z] Platform:      win32
-[debug] [2022-11-24T15:30:19.832Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:30:19.834Z] Time:          Thu Nov 24 2022 22:30:19 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:30:19.834Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:30:19.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:30:19.850Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2022-11-24T15:32:07.796Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
-[debug] [2022-11-24T15:32:08.662Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
-[debug] [2022-11-24T15:32:08.663Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
-[debug] [2022-11-24T15:33:26.975Z] ----------------------------------------------------------------------
-[debug] [2022-11-24T15:33:26.979Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2022-11-24T15:33:26.980Z] CLI Version:   11.16.1
-[debug] [2022-11-24T15:33:26.980Z] Platform:      win32
-[debug] [2022-11-24T15:33:26.980Z] Node Version:  v16.14.0
-[debug] [2022-11-24T15:33:26.982Z] Time:          Thu Nov 24 2022 22:33:26 GMT+0700 (Western Indonesia Time)
-[debug] [2022-11-24T15:33:26.982Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2022-11-24T15:33:26.997Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-11-24T15:33:26.998Z] > authorizing via signed-in user (ridhofadhillah@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\belajarreact\tinder\tinder-clone
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2022-11-24T15:33:33.278Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
-[debug] [2022-11-24T15:33:34.042Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
-[debug] [2022-11-24T15:33:34.042Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-11-24T16:35:16.387Z] > refreshing access token with scopes: []
+[debug] [2022-11-24T16:35:16.395Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-24T16:35:16.395Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-24T16:35:16.676Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-24T16:35:16.676Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-24T16:35:16.689Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-11-24T16:35:17.376Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-11-24T16:35:17.377Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
 [info] i  Using project tinder-f8b4e (tinder) 
 [info] 
 === Hosting Setup
@@ -302,52 +42,31 @@ You're about to initialize a Firebase project in this directory:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
-[debug] [2022-11-24T15:34:25.855Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
-[debug] [2022-11-24T15:34:26.076Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
-[debug] [2022-11-24T15:34:26.076Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.14.0","browserURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.tgz"},"live":{"version":"9.14","browserURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.14.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.14.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.14.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.14.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.memory.js"}}
-[info] +  Wrote public/index.html 
+[debug] [2022-11-24T16:35:38.389Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-24T16:35:38.619Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-11-24T16:35:38.619Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.14.0","browserURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.14.0/firebase.tgz"},"live":{"version":"9.14","browserURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.14/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.14.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.14.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.14.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.14.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.14.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.14.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.14.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.14.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.memory.js"}}
+[info] +  Wrote builds/index.html 
 [info] 
 [info] i  Detected a .git folder at D:\belajarreact\tinder\tinder-clone 
 [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=674705678&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=398140730&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
 [info] 
 [info] Waiting for authentication...
-[debug] [2022-11-24T15:34:49.080Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2022-11-24T15:34:49.080Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2022-11-24T15:34:49.683Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2022-11-24T15:34:49.683Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2022-11-24T15:34:49.697Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2022-11-24T15:34:50.426Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2022-11-24T15:34:50.427Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Ridh0","id":54372711,"node_id":"MDQ6VXNlcjU0MzcyNzEx","avatar_url":"https://avatars.githubusercontent.com/u/54372711?v=4","gravatar_id":"","url":"https://api.github.com/users/Ridh0","html_url":"https://github.com/Ridh0","followers_url":"https://api.github.com/users/Ridh0/followers","following_url":"https://api.github.com/users/Ridh0/following{/other_user}","gists_url":"https://api.github.com/users/Ridh0/gists{/gist_id}","starred_url":"https://api.github.com/users/Ridh0/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ridh0/subscriptions","organizations_url":"https://api.github.com/users/Ridh0/orgs","repos_url":"https://api.github.com/users/Ridh0/repos","events_url":"https://api.github.com/users/Ridh0/events{/privacy}","received_events_url":"https://api.github.com/users/Ridh0/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":12,"public_gists":0,"followers":4,"following":4,"created_at":"2019-08-21T17:54:12Z","updated_at":"2022-11-18T17:08:09Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":458256,"collaborators":2,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[debug] [2022-11-24T16:35:39.795Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-11-24T16:35:39.795Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-11-24T16:35:40.379Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-11-24T16:35:40.380Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-11-24T16:35:40.394Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-11-24T16:35:40.990Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-11-24T16:35:40.990Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Ridh0","id":54372711,"node_id":"MDQ6VXNlcjU0MzcyNzEx","avatar_url":"https://avatars.githubusercontent.com/u/54372711?v=4","gravatar_id":"","url":"https://api.github.com/users/Ridh0","html_url":"https://github.com/Ridh0","followers_url":"https://api.github.com/users/Ridh0/followers","following_url":"https://api.github.com/users/Ridh0/following{/other_user}","gists_url":"https://api.github.com/users/Ridh0/gists{/gist_id}","starred_url":"https://api.github.com/users/Ridh0/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ridh0/subscriptions","organizations_url":"https://api.github.com/users/Ridh0/orgs","repos_url":"https://api.github.com/users/Ridh0/repos","events_url":"https://api.github.com/users/Ridh0/events{/privacy}","received_events_url":"https://api.github.com/users/Ridh0/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":12,"public_gists":0,"followers":4,"following":4,"created_at":"2019-08-21T17:54:12Z","updated_at":"2022-11-24T15:38:03Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":458256,"collaborators":2,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
 [info] 
 [info] +  Success! Logged into GitHub as Ridh0 
 [info] 
-[debug] [2022-11-24T15:35:24.872Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:25.409Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:25.409Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-11-24T15:35:30.782Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:31.291Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:31.291Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-11-24T15:35:34.518Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:34.711Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:34.937Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:35.203Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:35.203Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-11-24T15:35:35.239Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:35.239Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-11-24T15:35:35.631Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:35.631Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-11-24T15:35:36.157Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:36.343Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:36.559Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:36.750Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
-[debug] [2022-11-24T15:35:36.801Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:36.801Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2022-11-24T15:35:36.897Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:36.898Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-11-24T15:35:37.180Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:37.180Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
-[debug] [2022-11-24T15:35:37.250Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
-[debug] [2022-11-24T15:35:37.250Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-24T16:35:55.133Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key type=owner
+[debug] [2022-11-24T16:35:55.873Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key 404
+[debug] [2022-11-24T16:35:55.873Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
+[debug] [2022-11-24T16:35:57.874Z] >>> [apiv2][query] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key type=owner
+[debug] [2022-11-24T16:35:58.440Z] <<< [apiv2][status] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key 404
+[debug] [2022-11-24T16:35:58.440Z] <<< [apiv2][body] GET https://api.github.com/repos/Ridh0/tinder-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
